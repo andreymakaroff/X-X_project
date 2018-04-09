@@ -1,0 +1,23 @@
+@import "../variables";
+
+.header{
+  @include padding(10px);
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: $headerBg;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  img{
+    width: 100%;
+   object-fit: contain;
+  }
+}
